@@ -5,7 +5,7 @@ import GlobalStyles from './styles/global';
 import { CodeFormatting } from './components/code-formatting';
 import { steps } from './mapped';
 import { GithubLogo, InstagramLogo, YoutubeLogo } from 'phosphor-react';
-const App: React.FC = () => {
+const App = () => {
   const [firstSwitch, setFirstSwitch] = useState(false);
   const [secondSwitch, setSecondSwitch] = useState(false);
   const [thirdSwitch, setThirdSwitch] = useState(false);

@@ -7,10 +7,7 @@ type Props = {
   description: string;
   codeString: string;
 };
-export const CodeFormatting: React.FC<Props> = ({
-  description,
-  codeString,
-}: Props) => {
+export const CodeFormatting = ({ description, codeString }: Props) => {
   return (
     <S.Wrapper>
       <div>

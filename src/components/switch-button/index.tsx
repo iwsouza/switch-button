@@ -13,7 +13,7 @@ export type Props = {
  * @param disabled boolean
  * @param onClick return void function
  */
-export const SwitchButton: React.FC<Props> = ({
+export const SwitchButton = ({
   variant,
   isActive,
   disabled,

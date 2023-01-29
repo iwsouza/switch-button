@@ -31,7 +31,7 @@ export const steps = [
      * @param disabled boolean
      * @param onClick return void function
      */
-    export const SwitchButton: React.FC<Props> = ({
+    export const SwitchButton = ({
       variant,
       isActive,
       disabled,
@@ -117,7 +117,7 @@ export const steps = [
   {
     description: 'Agora é só criar um estado e importar o componente ',
     codeString: `
-    export const SeuComponente: React.FC = () => {
+    export const SeuComponente = () => {
 
       const [isActive, setIsActive] = useState(false);
 
